@@ -73,7 +73,7 @@
   ```
   The second line represent `minutes:seconds` and we can replace `0` with the number we want. And the range of the time set is between `00:30` and `59:59`.
 
-  ## Alarm
+  ### Alarm
   The alarm is made with RGB light and a buzzer where both will be turned on for `0.5 sec` and off for `0.5 sec` repeatedly until the right-most column of keypad is pushed.
   
   The alarm will be activated within the **Using** state when
