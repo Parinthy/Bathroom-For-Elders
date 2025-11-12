@@ -106,3 +106,5 @@
   const byte micInt {2};
   const byte TandH {7};
   ```
+  ## Classes
+  We wrote 3 classes for this project: **ModeControl**, **TimeGod**, and **keypadChoose**
