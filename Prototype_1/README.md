@@ -5,13 +5,16 @@
   - Wire.h
   - [LiquidCrystal_I2C.h](https://github.com/sstaub/LCD-I2C-HD44780)
   - [DHT11.h](https://github.com/dhrubasaha08/DHT11)
-  ## I/O
-  I/O are declared in the line `31` for keypad:
+  ## Setup
+  Keypad input is declared in the line `31`:
   ```
   byte rowPins[ROWS] = {51,50,53,52};
   byte colPins[COLS] = {48,49,46,47};
   ```
-  and `37` for others:
+  ```
+  const byte matInt {38};
+  ```
+  and `37` for other I/O:
   ```
   const byte LED_R {3};
   const byte LED_G {4};
@@ -24,5 +27,3 @@
   const byte micInt {2};
   const byte TandH {7};
   ```
-  ## Classes
-  We wrote 3 classes for this project: **ModeControl**, **TimeGod**, and **keypadChoose**
